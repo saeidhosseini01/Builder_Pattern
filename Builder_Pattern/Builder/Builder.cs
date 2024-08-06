@@ -13,7 +13,7 @@ namespace Builder_Pattern.Builder
         protected Product product;
         public Builder()
         {
-            this.product =new Product;
+            this.product =new Product();
         }
         public abstract void BuildPart1();
         public abstract void BuildPart2();

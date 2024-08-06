@@ -9,11 +9,11 @@ namespace Builder_Pattern.Builder
     public class Direcctor
     {
         private Builder builder;
-        public void DetBuilder( Builder builder )
+        public void SetBuilder( Builder builder )
         {
               this.builder=builder;
         }
-        public Direcctor()
+        public void Constract()
         {
             builder.BuildPart1();
             builder.BuildPart2();
